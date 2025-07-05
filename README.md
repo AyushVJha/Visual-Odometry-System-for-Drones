@@ -96,7 +96,7 @@ roslaunch moveit_integration moveit.launch
 roslaunch custom_nodes robot_nodes.launch
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Localization Error**: <0.1m accuracy
 - **Navigation Success Rate**: 95%
