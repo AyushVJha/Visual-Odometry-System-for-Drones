@@ -1,4 +1,0 @@
-<launch>
-  <rosparam file="$(find moveit_integration)/config/moveit_config.yaml" command="load" />
-  <node name="moveit_node" pkg="moveit_integration" type="moveit_node.py" output="screen" />
-</launch>
