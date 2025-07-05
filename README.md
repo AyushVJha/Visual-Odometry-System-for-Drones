@@ -2,7 +2,7 @@
 
 A comprehensive ROS-based autonomous navigation system for mobile robots featuring SLAM, localization, path planning, and motion control capabilities.
 
-## 🚀 Features
+## Features
 
 - **SLAM (Simultaneous Localization and Mapping)** using GMapping
 - **Localization** with Adaptive Monte Carlo Localization (AMCL)
@@ -12,7 +12,7 @@ A comprehensive ROS-based autonomous navigation system for mobile robots featuri
 - **Custom Sensor Processing** and Motor Control nodes
 - **Gazebo Simulation** with TurtleBot3 in indoor environment
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **ROS** (Melodic/Noetic)
 - **C++** and **Python**
@@ -22,7 +22,7 @@ A comprehensive ROS-based autonomous navigation system for mobile robots featuri
 - **MoveIt!** for motion planning
 - **GMapping** for SLAM
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 catkin_ws/
@@ -64,7 +64,7 @@ catkin_make
 source devel/setup.bash
 ```
 
-## 🚀 Usage
+## Usage
 
 ### 1. Launch Gazebo Simulation
 ```bash
@@ -103,7 +103,7 @@ roslaunch custom_nodes robot_nodes.launch
 - **Real-time Mapping**: Lidar-based SLAM with GMapping
 - **Collision-free Navigation**: A* global + DWA local planning
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -111,12 +111,12 @@ roslaunch custom_nodes robot_nodes.launch
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the BSD License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
+## Contact
 
-Your Name - your.email@example.com
+Mail - ayushvjha@gmail.com
 
-Project Link: [https://github.com/yourusername/autonomous-mobile-robot-navigation](https://github.com/yourusername/autonomous-mobile-robot-navigation)
+Project Link: [https://github.com/ayushvjha/autonomous-mobile-robot-navigation](https://github.com/ayushvjha/autonomous-mobile-robot-navigation)
