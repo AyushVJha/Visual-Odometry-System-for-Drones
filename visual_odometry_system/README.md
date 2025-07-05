@@ -1,7 +1,5 @@
 # Visual Odometry System for Drones
 
-## Project Overview
-
 This project implements a monocular visual odometry system for drone navigation, estimating camera pose and reconstructing the 3D environment.
 
 ## Features
