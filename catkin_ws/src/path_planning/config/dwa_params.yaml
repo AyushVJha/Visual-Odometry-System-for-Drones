@@ -1,0 +1,10 @@
+# dwa_params.yaml
+max_speed: 0.5        # m/s
+min_speed: 0.0
+max_yawrate: 1.0      # rad/s
+dt: 0.1               # seconds
+prediction_time: 2.0  # seconds
+scoring: 
+  heading: 0.7
+  distance: 0.2
+  velocity: 0.1

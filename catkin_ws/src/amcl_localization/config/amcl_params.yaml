@@ -1,0 +1,7 @@
+# amcl_params.yaml
+min_particles: 500
+max_particles: 2000
+kld_err: 0.05
+laser_model_type: "likelihood_field"
+update_min_d: 0.2
+update_min_a: 0.2

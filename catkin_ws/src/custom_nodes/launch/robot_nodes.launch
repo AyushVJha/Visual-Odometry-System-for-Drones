@@ -1,0 +1,4 @@
+<launch>
+  <node name="sensor_processing" pkg="custom_nodes" type="sensor_processing_node" output="screen" />
+  <node name="motor_control" pkg="custom_nodes" type="motor_control.py" output="screen" />
+</launch>

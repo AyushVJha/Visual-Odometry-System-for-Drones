@@ -1,0 +1,4 @@
+# global_planner_params.yaml
+grid_resolution: 0.1   # meters per cell
+cost_factor: 1.0
+heuristic_weight: 1.2

@@ -1,0 +1,9 @@
+<launch>
+  <!-- Load parameters -->
+  <rosparam file="$(find slam_gmapping)/config/gmapping_params.yaml" command="load" />
+  
+  <node name="gmapping_node" pkg="slam_gmapping" type="gmapping_node" output="screen">
+    <!-- Error handling: Ensure sensor topics exist -->
+    <remap from="scan" to="/scan"/>
+  </node>
+</launch>

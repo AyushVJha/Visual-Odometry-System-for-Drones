@@ -1,0 +1,7 @@
+<launch>
+  <rosparam file="$(find path_planning)/config/global_planner_params.yaml" command="load" ns="global_planner"/>
+  <rosparam file="$(find path_planning)/config/dwa_params.yaml" command="load" ns="dwa_planner"/>
+  
+  <node name="astar_planner" pkg="path_planning" type="astar_planner" output="screen" />
+  <node name="dwa_planner" pkg="path_planning" type="dwa_planner" output="screen" />
+</launch>

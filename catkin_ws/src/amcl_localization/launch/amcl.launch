@@ -1,0 +1,8 @@
+<launch>
+  <rosparam file="$(find amcl_localization)/config/amcl_params.yaml" command="load" />
+  
+  <node name="amcl_node" pkg="amcl_localization" type="amcl_node" output="screen">
+    <remap from="scan" to="/scan"/>
+    <remap from="odom" to="/odom"/>
+  </node>
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+  <arg name="world_file" default="$(find simulation)/worlds/indoor_world.world" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world_file)" />
+  </include>
+
+  <node name="spawn_turtlebot3" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param robot_description -model turtlebot3" />
+</launch>

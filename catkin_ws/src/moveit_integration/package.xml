@@ -1,0 +1,11 @@
+<package format="2">
+  <name>moveit_integration</name>
+  <version>0.1.0</version>
+  <description>ROS package to integrate MoveIt! for motion planning and manipulation.</description>
+  <maintainer email="maintainer@example.com">Your Name</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning_interface</depend>
+</package>

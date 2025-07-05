@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="indoor_world">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- Add walls, obstacles, and furniture models here to simulate an indoor environment -->
+    <model name="wall_1">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>5 0.1 2.5</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>5 0.1 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+          </material>
+        </visual>
+        <pose>0 2.5 1.25 0 0 0</pose>
+      </link>
+    </model>
+    <!-- Additional walls and obstacles can be added similarly -->
+  </world>
+</sdf>

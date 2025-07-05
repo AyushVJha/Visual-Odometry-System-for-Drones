@@ -1,0 +1,6 @@
+# moveit_config.yaml
+move_group:
+  planning_pipeline: ompl
+  request_adapters: 
+    - "default_initialize"
+    - "add_time_parameterization"
