@@ -49,7 +49,7 @@ catkin_ws/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/autonomous-mobile-robot-navigation.git
+git clone https://github.com/ayushvjha/autonomous-mobile-robot-navigation.git
 cd autonomous-mobile-robot-navigation
 ```
 
